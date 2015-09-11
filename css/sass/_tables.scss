@@ -1,0 +1,39 @@
+.table {
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-collapse: collapse;
+  white-space: pre-line;
+  min-width: 50%;
+  max-width: 80%;
+}
+
+td, th {
+  padding: 2.5% 5%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+thead {
+  background: lightgrey;
+  border-collapse: collapse;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+
+#table-sections {
+  background: tomato;
+}
+
+.col-1 {
+  width: 10%;
+}
+
+.col-2 {
+  width: 60%;
+}
+
+.col-3 {
+  width: 30%;
+}
