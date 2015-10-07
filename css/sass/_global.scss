@@ -28,3 +28,11 @@ a {
 h1 {
   margin: 2em auto;
 }
+
+p {
+  font-size: 13px;
+  
+  @include large {
+    font-size: 16px;
+  }
+}

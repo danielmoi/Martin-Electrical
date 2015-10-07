@@ -32,6 +32,15 @@ h1 {
   margin: 2em auto;
 }
 
+p {
+  font-size: 13px;
+}
+@media (min-width: 500px) {
+  p {
+    font-size: 16px;
+  }
+}
+
 /*
 * 
 * TO DO
@@ -313,15 +322,6 @@ tbody tr:nth-child(odd) {
   right: -0.5em;
 }
 
-.quote {
-  background: lightgrey;
-}
-@media (min-width: 500px) {
-  .quote {
-    background: tomato;
-  }
-}
-
 form {
   margin: 0 auto;
   max-width: 600px;
@@ -339,7 +339,8 @@ label {
   text-align: right;
 }
 
-textarea, input {
+textarea,
+input {
   font: 1em Helvetica;
   width: 50%;
   box-sizing: border-box;
@@ -348,7 +349,8 @@ textarea, input {
   padding: 0.5em;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   border-color: tomato;
   outline: none;
 }

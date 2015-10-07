@@ -7,3 +7,9 @@
       -ms-box-sizing: $boxmodel;
           box-sizing: $boxmodel;
 }
+
+@mixin large {
+  @media (min-width: #{$large-width}) {
+    @content;
+  }
+}

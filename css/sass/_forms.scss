@@ -4,10 +4,10 @@ form {
   border: 1px solid $orange;
   border-radius: 1em;
   padding: 1em 1em 2em 1em;
-  
   div {
     margin-top: 1em;
   }
+
 }
 
 label {
@@ -16,7 +16,8 @@ label {
   text-align: right;
 }
 
-textarea, input {
+textarea,
+input {
   font: 1em Helvetica;
   width: 50%;
   box-sizing: border-box;
@@ -25,7 +26,8 @@ textarea, input {
   padding: 0.5em;
 }
 
-textarea:focus, input:focus {
+textarea:focus,
+input:focus {
   border-color: $orange;
   outline: none; // removes blue haze
 }
@@ -44,11 +46,10 @@ button {
   background-color: $orange;
   color: white;
   border-style: none;
-//  border-bottom-style: none;
-//  border-bottom-color: $orange;
-//  border-right-style: none; // specifies a 3D outset border; color = border-color value
-//  border-right-color: $orange;
-  
+  //  border-bottom-style: none;
+  //  border-bottom-color: $orange;
+  //  border-right-style: none; // specifies a 3D outset border; color = border-color value
+  //  border-right-color: $orange;
 }
 
 .button {

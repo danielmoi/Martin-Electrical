@@ -52,10 +52,3 @@
   bottom: -1em;
   right: -0.5em;
 }
-
-.quote {
-  background: lightgrey;
-  @media #{$large} {
-    background: tomato;
-  }
-}
