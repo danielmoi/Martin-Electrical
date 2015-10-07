@@ -29,15 +29,23 @@ a {
 }
 
 h1 {
-  margin: 2em auto;
+  margin: 1em auto;
+}
+@media (min-width: 500px) {
+  h1 {
+    margin: 1.5em auto;
+    font-size: 2em;
+  }
 }
 
 p {
   font-size: 13px;
+  margin: 1em;
 }
 @media (min-width: 500px) {
   p {
     font-size: 16px;
+    margin: 1.5em;
   }
 }
 
@@ -76,16 +84,11 @@ header {
 .logo {
   line-height: 60px;
   height: 60px;
-  padding-top: 10px;
   display: inline-block;
   vertical-align: middle;
   margin-left: 50px;
   margin-top: 10px;
-  background-image: url("../../img/logo%20150901-03.png");
-  background-size: contain;
-  background-position: center;
   width: 200px;
-  background-repeat: no-repeat;
 }
 
 .logo img {
@@ -94,6 +97,7 @@ header {
   vertical-align: middle;
   margin: 0;
   padding: 0;
+  height: 60px;
 }
 
 .nav-burger {
@@ -206,12 +210,11 @@ footer {
     margin: 0 auto;
     height: 80px;
     line-height: 80px;
-    background-image: url("../../img/logo%20150901-03.png");
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     width: 300px;
     margin-top: 20px;
+  }
+  .logo img {
+    height: 85px;
   }
 
   header {

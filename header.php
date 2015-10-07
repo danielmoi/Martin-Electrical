@@ -15,6 +15,7 @@
   <header>
     <div class="header">
       <div class="logo">
+        <img src="img/logo.png">
       </div>
       <div class="nav-burger">Menu</div>
       <div class="nav-list">
