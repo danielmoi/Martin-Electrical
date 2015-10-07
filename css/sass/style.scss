@@ -7,7 +7,11 @@
 @import "_global";
 
 
-// Core CSS//
-@import "_tables";
+// Core CSS //
 @import "_main";
+@import "_tables";
 
+// Module CSS //
+@import "_testimonials";
+@import "_forms";
+@import "_lists";

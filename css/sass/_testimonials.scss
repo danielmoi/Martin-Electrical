@@ -1,0 +1,61 @@
+/*
+* 
+* TESTIMONIALS
+*
+*/
+
+.testimonial {
+  border: 2px solid lightgrey;
+  border-radius: 20px;
+  padding: 5% 10%;
+  margin: 5% auto;
+}
+
+.name {
+  color: $orange;
+}
+
+.date {
+  font-style: italic;
+  font-size: 0.8em;
+  margin-top: 0;
+}
+
+.date::before {
+  content: "~ ";
+}
+
+.date::after {
+  content: " ~";
+}
+
+.quote p:first-child:before {
+  content: open-quote;
+  font-size: 4em;
+  color: $orange;
+  position: absolute;
+  top: -0.5em;
+  left: -0.5em;
+}
+
+.quote p {
+  display: block;
+  position: relative;
+  z-index: -99999; // to prevent this showing from underneath header
+}
+
+.quote p:last-child:after { // to only select last paragraph
+  content: close-quote;
+  font-size: 4em;
+  position: absolute;
+  color: $orange;
+  bottom: -1em;
+  right: -0.5em;
+}
+
+.quote {
+  background: lightgrey;
+  @media #{$large} {
+    background: tomato;
+  }
+}

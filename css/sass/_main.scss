@@ -1,38 +1,28 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-}
+/*
+* 
+* TO DO
+* 1. Grid
+* 2. Fix logo, rename logo
+*/
 
 
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-section {
-  margin-top: 60px;
-  padding: 20px 2%;
-  text-align: center;
-  max-width: 900px;
-  margin: 0 auto;
-}
-
-.gallery {
-  text-align: center;
-}
+/*
+* 
+* HEADER
+*
+*/
 
 header {
   //  max-width: 900px;
   margin: 0 auto;
   width: 100%;
-  height: 60px;
-  background: tomato;
+  height: 80px;
+  background: white;
 }
 
 .header {
-  height: 60px;
+  height: 80px;
   max-width: 900px;
   background: white;
   position: fixed;
@@ -48,14 +38,16 @@ header {
 .logo {
   line-height: 60px;
   height: 60px;
+  padding-top: 10px;
   display: inline-block;
   vertical-align: middle;
   margin-left: 50px;
-  
-  background-image: url("../../img/200x50.png");
+  margin-top: 10px;
+  background-image: url("../../img/logo%20150901-03.png");
   background-size: contain;
   background-position: center;
   width: 200px;
+  background-repeat: no-repeat;
 }
 
 .logo img {
@@ -71,15 +63,16 @@ header {
   top: 0;
   right: 20px;
   color: tomato;
-  height: 60px;
+  height: 80px;
   width: 60px;
   text-align: center;
-  line-height: 60px;
+  line-height: 80px;
 }
 
 .nav-list {
   //  width: 100%;
   display: none;
+  margin-top: 10px;
 }
 
 .nav-list ul li a {
@@ -92,19 +85,49 @@ header {
   display: block;
 }
 
-ul {
+header ul {
   list-style-type: none;
   margin: 0; // there is a default margin top and bottom
   padding: 0; // there is a default padding-left
   width: 100%;
 }
 
-li {
+header li {
   background: tomato;
   padding: 20px;
   //  width: 100%;
   text-align: center;
 }
+
+
+/*
+* 
+* SECTION
+*
+*/
+
+
+section {
+  margin-top: 60px;
+  padding: 20px 2%;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.gallery {
+  text-align: center;
+}
+
+.spacer {
+  height: 20px;
+}
+
+/*
+* 
+* FOOTER
+*
+*/
 
 
 footer {
@@ -117,21 +140,27 @@ footer {
   max-width: 900px;
   margin: 0 auto;
   height: 100px;
-  line-height:100px;
+  line-height: 100px;
   text-align: center;
 }
+
+
+/*
+* 
+* MEDIA QUERIES
+*
+*/
+
 
 @media screen and (min-width: 500px) {
   html {
     //    background: blue;
   }
-
   .nav-burger {
     display: none;
   }
   .nav-list {
     display: inline-block;
-    background: yellow;
     width: 100%;
     text-align: center;
   }
@@ -139,27 +168,31 @@ footer {
     display: inline-block;
     background: tomato;
     margin: 0 auto;
+    margin-top: 10px;
   }
   .nav-list li {
     display: inline-block;
   }
-  
   .logo {
     margin: 0 auto;
-    
-    background: green;
-    background-image: url("../../img/200x100.png");
+    height: 80px;
+    line-height: 80px;
+    background-image: url("../../img/logo%20150901-03.png");
     background-size: contain;
     background-position: center;
-    content: "hello";
-    width: 200px;
-
+    background-repeat: no-repeat;
+    width: 300px;
+    margin-top:20px;
   }
   
+  
   header {
-    height: 120px;
+    height: 150px;
   }
   .header {
     text-align: center;
+    height: 120px;
   }
 }
+
+
