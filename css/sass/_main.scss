@@ -135,6 +135,7 @@ footer {
   width: 100%;
   background: tomato;
   margin-top: 100px;
+  text-align: center;
 }
 
 .footer {
@@ -143,6 +144,64 @@ footer {
   height: 100px;
   line-height: 100px;
   text-align: center;
+  
+  p {
+    display: inline-block;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    right: 0;
+  }
+}
+
+.social{
+  display: inline-block;
+  line-height: 100px;
+  vertical-align: middle;
+  padding-left: 30px;
+  height: 36px;
+  position: absolute;
+  top: 0;
+}
+
+.superbox {
+  max-width: 900px;
+}
+
+.box {
+  display: inline-block;
+  margin: 0 auto;
+//  background: cornflowerblue;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.one {
+  line-height: 100px;
+  p {
+    display: inline-block;
+    margin: 0;
+  }
+}
+
+.two {
+  position: absolute;
+  right: 5%;
+  line-height: 100px;
+  top: 0;
+  bottom: 0;
+  @include large {
+    right: 10%;
+  }
+  img {
+    height: 24px;
+    margin: 0 5px;
+    @include large {
+      margin: 0 10px;
+    }
+  }
 }
 
 
