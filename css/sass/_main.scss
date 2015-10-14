@@ -141,6 +141,7 @@ footer {
 
 .superbox {
   max-width: 900px;
+  margin: 0 auto;
 }
 
 .box {
@@ -168,7 +169,7 @@ footer {
   top: 0;
   bottom: 0;
   @include large {
-    right: 10%;
+    right: 5%;
     line-height: 120px;
   }
   img {
