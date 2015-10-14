@@ -4,7 +4,7 @@
     <h1>Testimonials</h1>
 
     <div class="gallery">
-      <img src="img/warehouse2.jpg">
+      <img src="img/testimonials.jpg">
     </div>
 
     <p>Some of our recent clients reviewed us, and here's what they had to say!</p>

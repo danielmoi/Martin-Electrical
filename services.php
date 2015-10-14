@@ -4,7 +4,7 @@
     <h1>Services</h1>
 
     <div class="gallery">
-      <img src="img/warehouse2.jpg">
+      <img src="img/services.jpg">
     </div>
 
     <p>Our team of reliable, experienced and quality tradespeople are available to attend to all your electrical requirements. We can install power points or lights, provide maintenance for property managers, car yards, retirement villages and universities. Our team has extensive experience in commercial, retail, residential, and domestic areas.</p>

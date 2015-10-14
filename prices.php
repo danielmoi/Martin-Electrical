@@ -4,7 +4,7 @@
         <h1>Price Guide</h1>
 
         <div class="gallery">
-            <img src="img/warehouse.jpeg">
+            <img src="img/prices.jpg">
         </div>
 
         <p>Below is a list of common electrical jobs and a rough idea of our pricing to supply the parts and perform the labour.</p>
