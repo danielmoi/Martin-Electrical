@@ -4,7 +4,7 @@
       <div class="footer-text">
         <p>&copy; 2015 Martin Electrical</p>
       </div>
-      <div class="social"><img src="img/twitter.png"><img src="img/linkedin.png"></div>
+      <div class="social"><a href="#"><img src="img/twitter.png"></a><a href="#"><img src="img/linkedin.png"></a></div>
 
     </div>
   </div>

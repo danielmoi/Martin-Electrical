@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 h1 {
   margin: 1em auto;
 }
@@ -46,6 +50,15 @@ p {
   p {
     font-size: 16px;
     margin: 1.5em;
+  }
+}
+
+.services ul li, label, input, textarea, button, table {
+  font-size: 13px;
+}
+@media (min-width: 500px) {
+  .services ul li, label, input, textarea, button, table {
+    font-size: 16px;
   }
 }
 
@@ -383,7 +396,6 @@ label {
 
 textarea,
 input {
-  font: 1em Helvetica;
   width: 50%;
   box-sizing: border-box;
   border: 1px solid lightgrey;
@@ -407,7 +419,6 @@ button {
   margin-left: .5em;
   padding: 1em;
   border-radius: 1em;
-  font: 1em Helvetica;
   background-color: tomato;
   color: white;
   border-style: none;

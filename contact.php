@@ -6,7 +6,7 @@
     <p>We'd love to get in touch! We highly value your enquiries, and we are happy to answer any questions you may have. Here are our contact details!</p>
     <div class="spacer"></div>
     
-    <p><strong>Phone: </strong><a href="+tel:+61 2 9353 4660">+61 2 9353 4660</a></p>
+    <p><strong>Phone: </strong><a href="tel:+61 2 9353 4660">+61 2 9353 4660</a></p>
     <p><strong>Fax: </strong> +61 2 9353 4660</p>
     <div class="spacer"></div>
     <p><strong>Email: </strong><a href="mailto:enquiries@martinelectrical.com.au">enquiries@martinelectrical.com.au</a></p>

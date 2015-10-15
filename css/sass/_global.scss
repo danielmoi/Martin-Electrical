@@ -23,6 +23,11 @@ iframe {
 a {
   color: $orange;
   text-decoration: none;
+  
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 h1 {
@@ -40,5 +45,13 @@ p {
   @include large {
     font-size: 16px;
     margin: 1.5em;
+  }
+}
+
+.services ul li, label, input, textarea, button, table {
+  font-size: 13px;
+  
+  @include large {
+    font-size: 16px;
   }
 }
