@@ -64,12 +64,6 @@ p {
 
 /*
 * 
-* TO DO
-* 1. Grid
-* 2. Fix logo, rename logo
-*/
-/*
-* 
 * HEADER
 *
 */
@@ -211,7 +205,7 @@ footer {
   position: absolute;
   right: 5%;
   line-height: 100px;
-  top: 0;
+  top: 10px;
   bottom: 0;
 }
 @media (min-width: 500px) {
